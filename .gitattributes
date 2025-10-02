@@ -1,11 +1,11 @@
 *.vim linguist-vendored
-*.vba linguist-vendored
-*.pl linguist-vendored
-*.js linguist-vendored
-*.html linguist-vendored
-
-*.js linguist-detectable=false
-*.jsx linguist-detectable=false
+#*.vba linguist-vendored
+#*.pl linguist-vendored
+#*.js linguist-vendored
+#*.html linguist-vendored
+#
+#*.js linguist-detectable=false
+#*.jsx linguist-detectable=false
 # *.vue linguist-detectable=false
-*.mjs linguist-detectable=false
-*.cjs linguist-detectable=false
+#*.mjs linguist-detectable=false
+#*.cjs linguist-detectable=false
