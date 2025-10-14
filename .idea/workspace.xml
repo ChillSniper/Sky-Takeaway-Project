@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f74a2405-2947-47d4-8f46-d6e722140f84" name="更改" comment="Day03 finished. New Test" />
+    <list default="true" id="f74a2405-2947-47d4-8f46-d6e722140f84" name="更改" comment="new update... Finished Day04. I need enough time! I lack time!">
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/config/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/controller/admin/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/controller/user/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +57,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.SpringDataRedisTest.executor": "Run",
+    "JUnit.SpringDataRedisTest.testCommon.executor": "Run",
+    "JUnit.SpringDataRedisTest.testHash.executor": "Run",
+    "JUnit.SpringDataRedisTest.testList.executor": "Run",
+    "JUnit.SpringDataRedisTest.testRedisTemplate.executor": "Run",
+    "JUnit.SpringDataRedisTest.testString.executor": "Debug",
     "Maven.sky-take-out [clean].executor": "Run",
     "Maven.sky-take-out [compile].executor": "Run",
     "Maven.sky-take-out [install].executor": "Run",
@@ -90,8 +104,90 @@
       <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\resources\mapper" />
       <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sky.controller.user" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SkyApplication">
+    <configuration name="SpringDataRedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.SpringDataRedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.testCommon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testCommon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SkyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sky-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sky.SkyApplication" />
@@ -99,6 +195,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringDataRedisTest" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testCommon" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testList" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testHash" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testString" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -119,7 +224,7 @@
       <workItem from="1759388802000" duration="654000" />
       <workItem from="1759389762551" duration="3243000" />
       <workItem from="1759415386118" duration="229000" />
-      <workItem from="1759415715951" duration="65824000" />
+      <workItem from="1759415715951" duration="86382000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <option name="closed" value="true" />
@@ -225,7 +330,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760168099329</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new update... Finished Day03, I need time and patience.">
+      <option name="closed" value="true" />
+      <created>1760168653400</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760168653400</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new update... Finished Day04. I need enough time! I lack time!">
+      <option name="closed" value="true" />
+      <created>1760279892812</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760279892812</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +387,8 @@
     <MESSAGE value="公共字段自动填充（AOP技术） &amp;&amp; 新增菜品" />
     <MESSAGE value="Day03 finished." />
     <MESSAGE value="Day03 finished. New Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day03 finished. New Test" />
+    <MESSAGE value="new update... Finished Day03, I need time and patience." />
+    <MESSAGE value="new update... Finished Day04. I need enough time! I lack time!" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update... Finished Day04. I need enough time! I lack time!" />
   </component>
 </project>
