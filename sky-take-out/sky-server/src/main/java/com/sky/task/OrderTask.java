@@ -27,7 +27,7 @@ public class OrderTask {
      * 每分钟触发一次
      */
 //    @Scheduled(cron = "2/5 * * * * ?") // for test
-    @Scheduled(cron = "0 * * * * ?")
+    @Scheduled(cron = "* * 2 * * ?")
     public void processTimeoutOrder() {
         log.info("定时处理超时订单：{}", LocalDateTime.now());
 
