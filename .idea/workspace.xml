@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f74a2405-2947-47d4-8f46-d6e722140f84" name="更改" comment="New update of Day10.">
-      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/controller/admin/ReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/impl/ReportServiceImpl.java" afterDir="false" />
+    <list default="true" id="f74a2405-2947-47d4-8f46-d6e722140f84" name="更改" comment="Day11 update.&#10;快搞完了，keep on!">
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/controller/admin/WorkSpaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/WorkspaceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/impl/WorkspaceServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/template/运营数据报表模板.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/task/OrderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/task/OrderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/controller/admin/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/controller/admin/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/DishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/SetmealMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/mapper/SetmealMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/impl/ReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/java/com/sky/service/impl/ReportServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/DishMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/SetmealMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-take-out/sky-server/src/main/resources/mapper/SetmealMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ComputerScienceLearning/Sky Takeaway Project/sky-take-out/sky-server/src/main/java/com/sky/task",
+    "last_opened_file_path": "D:/ComputerScienceLearning/Sky Takeaway Project/sky-take-out/sky-server/src/main/resources/template",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -92,7 +95,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.POITest.executor": "Run"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -112,11 +116,11 @@
       <recent name="com.sky.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\resources\template" />
+      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\service\impl" />
+      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\service" />
+      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\controller\admin" />
       <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\task" />
-      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\config" />
-      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\websocket" />
-      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\resources\mapper" />
-      <recent name="D:\ComputerScienceLearning\Sky Takeaway Project\sky-take-out\sky-server\src\main\java\com\sky\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sky.interceptor" />
@@ -124,6 +128,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SkyApplication">
+    <configuration name="POITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.POITest" />
+      <module name="sky-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpClientTest.TestPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sky-server" />
       <extension name="coverage">
@@ -187,22 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDataRedisTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sky-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sky.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sky.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.test.SpringDataRedisTest" />
-      <option name="METHOD_NAME" value="testList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CacheDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="springcache-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.CacheDemoApplication" />
@@ -219,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.POITest" />
         <item itemvalue="JUnit.HttpClientTest.TestPost" />
         <item itemvalue="JUnit.HttpClientTest.testGet" />
         <item itemvalue="JUnit.SpringDataRedisTest" />
         <item itemvalue="JUnit.SpringDataRedisTest.testCommon" />
-        <item itemvalue="JUnit.SpringDataRedisTest.testList" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +250,7 @@
       <workItem from="1759415715951" duration="105255000" />
       <workItem from="1760626723612" duration="531000" />
       <workItem from="1760669427109" duration="38990000" />
-      <workItem from="1761026890743" duration="58363000" />
+      <workItem from="1761026890743" duration="65719000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <option name="closed" value="true" />
@@ -435,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761317444243</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Day11 update.&#10;快搞完了，keep on!">
+      <option name="closed" value="true" />
+      <created>1761490111019</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1761490111019</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,6 +495,8 @@
     <MESSAGE value="Day08-09.&#10;I need time." />
     <MESSAGE value="New update of Day09.&#10;It's time to increase the speed." />
     <MESSAGE value="New update of Day10." />
-    <option name="LAST_COMMIT_MESSAGE" value="New update of Day10." />
+    <MESSAGE value="Day11 update.&#10;快搞完了，Keep on!" />
+    <MESSAGE value="Day11 update.&#10;快搞完了，keep on!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day11 update.&#10;快搞完了，keep on!" />
   </component>
 </project>
