@@ -55,3 +55,10 @@ sky:
   wechat:
     appid: ${sky.wechat.appid}
     secret: ${sky.wechat.secret}
+
+  shop:
+    address: 中国吉林省长春市朝阳区前进大街2699号
+
+  baidu:
+    ak: a0c6ZiimbN02x4R1oO5RBerDNfvHTVvm
+
